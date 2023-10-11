@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(110, 110, 236);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.head {
+    border-bottom-width: 1px;
+    border-color: white;
+    border-style: solid;
+}
+h1 {
+    color: white;
+    text-shadow: 0px 2px 2px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 10px 30px 10px;
+    border-bottom: 10px;
+}
+nav {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+.review  {
+    margin: 50px 20px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px;
+}
+
+.activity  {
+    margin: 50px 20px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px;
+    text-shadow: 0px 2px 2px grey;
+}
+
+footer {
+    color: red;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-width: 1px;
+    border-color: white;
+    border-style: solid;
+    }
