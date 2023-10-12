@@ -6,7 +6,10 @@ body {
 }
 
 .head {
-    border-bottom-width: 1px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
     border-color: white;
     border-style: solid;
 }
@@ -58,7 +61,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top-width: 1px;
+    border-bottom: 0px;
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
     border-color: white;
     border-style: solid;
     }
